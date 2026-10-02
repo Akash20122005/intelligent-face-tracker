@@ -78,3 +78,5 @@ desktop.ini
 # ==============================
 test_*.db
 tmp_*.db
+
+logs/
