@@ -1,0 +1,41 @@
+{
+    "input": {
+        "source": "input/video_sample1.mp4",
+        "rtsp_url": ""
+    },
+
+    "detection": {
+        "model": "models/yolov8n-face-lindevs.pt",
+        "confidence": 0.45,
+        "iou": 0.5,
+        "img_size": 640,
+        "skip_frames": 2
+    },
+
+    "recognition": {
+        "model": "buffalo_l",
+        "similarity_threshold": 0.75,
+        "confirmation_frames": 3,
+        "max_embeddings_per_face": 5
+    },
+
+    "tracking": {
+        "tracker": "bytetrack.yaml",
+        "max_missing_frames": 30
+    },
+
+    "testing": {
+        "max_frames": 240
+    },
+
+    "storage": {
+        "database": "database/visitors.db",
+        "log_directory": "logs",
+        "event_log": "logs/events.log"
+    },
+
+    "output": {
+        "save_video": true,
+        "display": true
+    }
+}

@@ -1,0 +1,80 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# ==============================
+# Virtual Environment
+# ==============================
+venv/
+env/
+.venv/
+
+# ==============================
+# VS Code
+# ==============================
+.vscode/
+*.code-workspace
+
+# ==============================
+# Environment / Secrets
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# SQLite Database
+# ==============================
+database/*.db
+database/*.sqlite
+database/*.sqlite3
+
+# ==============================
+# Runtime Logs
+# ==============================
+logs/events.log
+
+# ==============================
+# Generated Face Images
+#===============================
+logs/entry/
+logs/exit/
+
+# ==============================
+# Generated Output Videos
+# ==============================
+output/*.mp4
+output/*.avi
+output/*.mov
+output/*.mkv
+
+# ==============================
+# Temporary / Cache Files
+# ==============================
+*.tmp
+*.temp
+*.cache
+*.log
+
+# ==============================
+# OS Files
+# ==============================
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# ==============================
+# Jupyter / Python
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# Test / Temporary Database
+# ==============================
+test_*.db
+tmp_*.db
