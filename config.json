@@ -36,6 +36,7 @@
 
     "output": {
         "save_video": true,
-        "display": true
+        "display": false,
+        "video_path": "output/intelligent_face_tracker_output.mp4"
     }
 }

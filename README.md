@@ -860,14 +860,11 @@ It documents:
 
 ---
 
-## 26. Demo Video
+## Demo Video
 
-Add the final Loom or YouTube demonstration link here:
+🎥 **Project Explanation & Demonstration:**
 
-```text
-DEMO VIDEO:
-<ADD_LOOM_OR_YOUTUBE_LINK_HERE>
-```
+https://youtu.be/S6XEoNQalV0
 
 The demonstration should show:
 
